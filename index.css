@@ -1,5 +1,5 @@
 body {
-    background-color: #2e2e2e;
+    background-color: #363636;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -27,8 +27,17 @@ h2{
 p {
     color: white;
     font-size: 1.2rem;
-    margin: 0;
+    margin: 0rem 0rem 1.5rem 0rem;
     padding: 0;
+}
+
+.image-wrapper p {
+    max-width: 23rem;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
 }
 
 img {
@@ -48,7 +57,7 @@ img {
 }
 
 .text-description {
-    background-color: #414141;
+    background-color: #464646;
     padding: 2rem 2rem 3rem 2rem;
     margin-bottom: 1rem;
 }
@@ -58,7 +67,7 @@ img {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-color: #414141;
+    background-color: #464646;
     padding: 2rem 2rem 3rem 2rem;
     margin-bottom: 1rem;
 }
