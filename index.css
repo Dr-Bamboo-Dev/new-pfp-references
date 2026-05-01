@@ -35,7 +35,11 @@ p {
     max-width: 23rem;
 }
 
-a {
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
     color: aqua;
     text-decoration: none;
 }
