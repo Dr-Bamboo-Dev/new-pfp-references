@@ -1,0 +1,85 @@
+body {
+    background-color: #2e2e2e;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: 30rem;
+    max-width: 100%;
+}
+
+#main-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    display: block;
+}
+
+.text-description {
+    background-color: #414141;
+    padding: 2rem 2rem 3rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.reference-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #414141;
+    padding: 2rem 2rem 3rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.pre-images-description {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.images-flex {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 1.5rem;
+    row-gap: 3rem;
+}
+
+.image-wrapper {
+    padding: 0rem 3rem 0rem 0rem;
+}
